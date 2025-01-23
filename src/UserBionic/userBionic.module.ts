@@ -3,7 +3,7 @@ import { MikroOrmModule } from "@mikro-orm/nestjs";
 import { UserBionic } from "./entities/UserBionic.entity";
 import { UserBionicService } from "./userBionic.service";
 import { UserBionicController } from "./userBionic.controller";
-import { Course } from "src/Course/entities/Course.entity";
+import { Course } from "../Course/entities/Course.entity";
 import { PassportModule } from "@nestjs/passport";
 import { JwtModule } from "@nestjs/jwt";
 import { jwtConstants } from "./constant";
