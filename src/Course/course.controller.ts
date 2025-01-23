@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Put, Delete, Body, Param } from '@nestjs/common';
 import { CourseService } from './course.service';
-import { Course } from './entities/course.entity';
+import { Course } from './entities/Course.entity';
 import { Auth } from '../common/decorators/auth.decorator';
 import { User } from '../common/decorators/user.decorator';
 
