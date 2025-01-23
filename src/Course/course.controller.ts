@@ -1,8 +1,8 @@
 import { Controller, Get, Post, Put, Delete, Body, Param } from '@nestjs/common';
 import { CourseService } from './course.service';
 import { Course } from './entities/course.entity';
-import { Auth } from 'src/common/decorators/auth.decorator';
-import { User } from 'src/common/decorators/user.decorator';
+import { Auth } from '../common/decorators/auth.decorator';
+import { User } from '../common/decorators/user.decorator';
 
 @Controller('courses')
 export class CourseController {

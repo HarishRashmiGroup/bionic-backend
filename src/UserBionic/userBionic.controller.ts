@@ -1,8 +1,8 @@
 import { Controller, Post, Get, Body, Param } from "@nestjs/common";
 import { UserBionicService } from "./userBionic.service";
 import { JwtService } from '@nestjs/jwt';
-import { Auth } from "src/common/decorators/auth.decorator";
-import { User } from "src/common/decorators/user.decorator";
+import { Auth } from "../common/decorators/auth.decorator";
+import { User } from "../common/decorators/user.decorator";
 
 
 @Controller("users")
